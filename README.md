@@ -38,9 +38,4 @@ Before starting, ensure you have the following installed:
   - *Windows:* Download and install from [UB-Mannheim](https://github.com/UB-Mannheim/tesseract/wiki).
   - *Linux:* `sudo apt install tesseract-ocr`
 
-### 2. Clone the Repository
-Open your terminal or Git Bash and run:
-```bash
-git clone [https://github.com/nuwansithnidula/Edutool-AI-Powered-Online-Library-System-Using-Python-.git](https://github.com/nuwansithnidula/Edutool-AI-Powered-Online-Library-System-Using-Python-.git)
-cd Librojet
 
