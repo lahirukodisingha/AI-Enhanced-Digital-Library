@@ -1,2 +1,46 @@
-# Librojet.com
-LibroJet.com: A Next-Generation AI Enhanced Digital Library  for Seamless Reading and Learning Experience.
+# Librojet-AI-Powered-Online-Library-System-Using-Python-
+Edutool.com: An AI-driven E-book Library Management System. Features include NLP-based semantic search, OCR for image-to-text queries, and personalized AI recommendations. Developed with Python (Flask), MongoDB, and SBERT, it aims to revolutionize digital learning by making book discovery intuitive.
+
+## 🚀 Key Features
+
+- **NLP-Based Semantic Search:** Uses Natural Language Processing to understand user intent, allowing users to search for books using conversational language.
+- **OCR Integration:** Features Optical Character Recognition to extract text from images or handwritten notes to find relevant books.
+- **AI Recommendation Engine:** Provides personalized book suggestions based on user reading history and preferences using Machine Learning.
+- **Secure Authentication:** Robust user login and registration system with OTP support for password recovery.
+- **Admin Dashboard:** Comprehensive management tools for handling books, categories, and user data.
+- **Responsive UI:** Modern, dark-themed user interface designed for both desktop and mobile users.
+
+## 🛠️ Tech Stack
+
+- **Backend:** Python (Flask Framework)
+- **Frontend:** HTML5, CSS3 (Custom Root Variables), JavaScript
+- **Database:** MongoDB (NoSQL)
+- **AI/ML Libraries:** - SBERT (Sentence-BERT) for Semantic Search
+  - Tesseract OCR for Image Processing
+  - NLTK & Scikit-learn for NLP tasks
+  - TensorFlow/Keras for Deep Learning models
+
+## 🏗️ Architecture
+
+The system follows a **Modular Architecture** and utilizes the **Singleton Pattern** for database connections to ensure high performance and scalability.
+
+
+
+## 💻 Installation & Setup
+
+Follow these steps to set up the project locally on your machine:
+
+### 1. Prerequisites
+Before starting, ensure you have the following installed:
+- **Python 3.8+**
+- **MongoDB** (Local Community Server or MongoDB Atlas account)
+- **Tesseract OCR Engine** (Essential for the OCR feature to work)
+  - *Windows:* Download and install from [UB-Mannheim](https://github.com/UB-Mannheim/tesseract/wiki).
+  - *Linux:* `sudo apt install tesseract-ocr`
+
+### 2. Clone the Repository
+Open your terminal or Git Bash and run:
+```bash
+git clone [https://github.com/nuwansithnidula/Edutool-AI-Powered-Online-Library-System-Using-Python-.git](https://github.com/nuwansithnidula/Edutool-AI-Powered-Online-Library-System-Using-Python-.git)
+cd Librojet
+
